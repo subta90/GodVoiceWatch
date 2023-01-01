@@ -10,10 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text(R.string.localizable.titleText)
+                .multilineTextAlignment(.center)
+            Spacer()
+            Button(R.string.localizable.startButtonText()) {
+                // TODO: 出頭数を入力させる画面に遷移
+            }
         }
         .padding()
     }
