@@ -86,5 +86,6 @@ fastlane/test_output
 iOSInjectionProject/
 
 *.xcodeproj/*.pbxproj
+R.generated.swift
 
 # End of https://www.toptal.com/developers/gitignore/api/swift

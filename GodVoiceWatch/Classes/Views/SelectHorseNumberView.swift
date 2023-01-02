@@ -17,16 +17,14 @@ struct SelectHorseNumberView: View {
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
-        VStack {
+        VStack(spacing: 44.0) {
             Text(decided ? R.string.localizable.godVoiceDecidedText : R.string.localizable.godVoiceTitleText)
-            Spacer()
             Text(String(currentHorseNumber))
                 .font(.system(size: 32))
                 .bold()
                 .onReceive(timer) { _ in
                     updateCurrentHorseNumber()
                 }
-            Spacer()
             Button(R.string.localizable.godVoiceRetryButtonText()) {
                 dismiss.callAsFunction()
             }
