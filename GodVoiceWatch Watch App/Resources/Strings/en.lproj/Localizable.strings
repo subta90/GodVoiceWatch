@@ -6,5 +6,8 @@
   
 */
 
-"TitleText" = "神が勝馬番号を\n当ててくれるボタン";
+"TitleText" = "神が勝つ🐴番号を\n当ててくれるボタン";
 "StartButtonText" = "神の声を聞く";
+
+"InputHorseTitleText" = "出走🐴頭数を選択";
+"InputHorsePlaceHolder" = "出走🐴頭数";
