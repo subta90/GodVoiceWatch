@@ -14,7 +14,7 @@ struct StartView: View {
                 Text(R.string.localizable.titleText)
                     .multilineTextAlignment(.center)
                 Spacer()
-                NavigationLink(destination: InputHorseNumbersView()) {
+                NavigationLink(destination: InputNumberOfHorsesView()) {
                     Text(R.string.localizable.startButtonText())
                 }
             }

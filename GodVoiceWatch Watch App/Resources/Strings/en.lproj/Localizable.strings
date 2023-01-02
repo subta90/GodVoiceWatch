@@ -11,3 +11,7 @@
 
 "InputHorseTitleText" = "出走🐴頭数を選択";
 "InputHorsePlaceHolder" = "出走🐴頭数";
+
+"GodVoiceTitleText" = "タップで神の声";
+"GodVoiceDecidedText" = "勝つ🐴は👇";
+"GodVoiceRetryButtonText" = "もう一度";
